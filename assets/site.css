@@ -1,0 +1,54 @@
+/* Minimal custom styling beyond Tailwind CDN */
+:focus-visible { outline: 3px solid rgba(197,160,89,.45); outline-offset: 3px; border-radius: .75rem; }
+
+.signature-font { font-family: 'Mrs Saint Delafield', cursive; font-size: 2.4rem; line-height: 1; font-style: normal !important; }
+@media (min-width: 768px){ .signature-font{ font-size: 2.7rem; } }
+
+.nav-link { position: relative; font-weight: 800; font-size: .8125rem; letter-spacing: .12em; text-transform: uppercase; opacity: .9; }
+.nav-link::after { content:''; position:absolute; width:0; height:2px; bottom:-4px; left:0; background:#C5A059; transition: width .25s ease; }
+.nav-link:hover::after { width:100%; }
+.nav-link.active { color:#C5A059; opacity: 1; }
+
+.hero-bg {
+  background:
+    linear-gradient(rgba(15, 23, 42, .90), rgba(15, 23, 42, .78)),
+    url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=2400');
+  background-size: cover;
+  background-position: center;
+}
+
+.readable-card{
+  background:#ffffff;
+  padding:2rem;
+  border-radius:1.25rem;
+  box-shadow:0 20px 25px -5px rgba(15,23,42,.08),0 10px 10px -5px rgba(15,23,42,.04);
+  border:1px solid #f1f5f9;
+}
+@media (min-width:768px){ .readable-card{ padding:3rem; } }
+
+.section-header{
+  color:#0F172A;
+  font-weight:900;
+  font-size:1.15rem;
+  margin:0 0 1rem 0;
+  padding:0 0 1rem 0;
+  border-bottom:1px solid #f1f5f9;
+  text-transform: uppercase;
+  letter-spacing: -.01em;
+}
+
+.content-p{ color:#475569; font-size:1.075rem; line-height:1.75; margin:0 0 1rem 0; }
+.content-list{ list-style:disc; margin-left:1.5rem; margin-bottom:1.25rem; color:#475569; font-size:1.075rem; line-height:1.75; }
+.content-list li{ margin-bottom:.5rem; }
+.content-ol{ list-style:decimal; margin-left:1.5rem; margin-bottom:1.25rem; color:#475569; font-size:1.075rem; line-height:1.75; }
+.content-ol li{ margin-bottom:.65rem; }
+
+.phone-number{
+  font-family: "Manrope","Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  font-weight:500;
+  letter-spacing:.01em;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings:"tnum" 1, "lnum" 1;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:geometricPrecision;
+}

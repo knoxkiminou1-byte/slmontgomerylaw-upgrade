@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/meet-your-lawyer",
+      "destination": "/meet-your-lawyer.html"
+    },
+    {
+      "source": "/dui-faq",
+      "destination": "/dui-faq.html"
+    },
+    {
+      "source": "/drug-crimes",
+      "destination": "/drug-crimes.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    }
+  ]
+}
