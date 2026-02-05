@@ -8,8 +8,8 @@ This is a static HTML site designed to deploy on Vercel with clean routes.
 
 ## Edit content
 - Update the HTML files in the project root.
-- Headshot: removed (text placeholder used on Meet page to avoid binary assets)
-- Favicon: removed (empty data URI used to avoid binary assets)
+- Headshot: `assets/francis-headshot.jpg` (compressed for easy pushing)
+- Favicon: `assets/balancer.png` (used site-wide)
 
 ## Disclaimer
 Website content is general information only and is not legal advice.
