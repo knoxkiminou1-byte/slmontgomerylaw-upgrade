@@ -1,4 +1,4 @@
-# Stacey L. Montgomery Law — Vercel-ready static site
+# Francis L. Nelson Law — Vercel-ready static site
 
 This is a static HTML site designed to deploy on Vercel with clean routes.
 
@@ -8,7 +8,8 @@ This is a static HTML site designed to deploy on Vercel with clean routes.
 
 ## Edit content
 - Update the HTML files in the project root.
-- Stacey photo: `assets/stacey-montgomery.jpg`
+- Headshot: removed (text placeholder used on Meet page to avoid binary assets)
+- Favicon: removed (empty data URI used to avoid binary assets)
 
 ## Disclaimer
 Website content is general information only and is not legal advice.
